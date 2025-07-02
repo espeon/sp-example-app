@@ -19,7 +19,7 @@ import {
   StreamplaceProvider,
   TextContext,
   ThemeProvider as StreamplaceThemeProvider,
-} from "wagaga-components-beta-wagaga";
+} from "@streamplace/components";
 import { useStore } from "~/stores";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 

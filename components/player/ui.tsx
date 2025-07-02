@@ -8,7 +8,7 @@ import {
   Toast,
   Resizable,
   useKeyboardSlide,
-} from "wagaga-components-beta-wagaga";
+} from "@streamplace/components";
 import { Pressable } from "react-native";
 import { Chat } from "./chat";
 

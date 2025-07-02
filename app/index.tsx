@@ -1,7 +1,7 @@
 import * as React from "react";
 import { View, Image } from "react-native";
 import { Text } from "~/components/ui/text";
-import { useStreamplaceStore } from "wagaga-components-beta-wagaga";
+import { useStreamplaceStore } from "@streamplace/components";
 import { PlaceStreamLivestream } from "streamplace";
 import { Link } from "expo-router";
 

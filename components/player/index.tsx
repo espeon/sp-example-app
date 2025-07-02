@@ -3,7 +3,7 @@ import {
   Player as PlayerInner,
   PlayerProps,
   PlayerProvider,
-} from "wagaga-components-beta-wagaga";
+} from "@streamplace/components";
 import { MyPlayerUI } from "./ui"; // Custom UI component for player controls
 
 export function Player(props: Partial<PlayerProps>) {

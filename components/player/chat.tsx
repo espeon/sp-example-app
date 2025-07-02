@@ -20,7 +20,7 @@ import {
   useChat,
   useSetReplyToMessage,
   View,
-} from "wagaga-components-beta-wagaga";
+} from "@streamplace/components";
 
 import { RenderChatMessage } from "./chat-message";
 

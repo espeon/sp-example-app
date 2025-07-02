@@ -33,11 +33,14 @@ importers:
         specifier: ~1.2.0
         version: 1.2.0(@rn-primitives/portal@1.3.0(@types/react@19.0.14)(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)(use-sync-external-store@1.5.0(react@19.0.0)))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
       '@streamplace/atproto-oauth-client-react-native':
-        specifier: ^0.6.37
-        version: 0.6.37(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
+        specifier: ^0.7.0
+        version: 0.7.0(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
+      '@streamplace/components':
+        specifier: ^0.7.0
+        version: 0.7.0(@babel/core@7.27.4)(@types/react@19.0.14)(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-native-svg@15.11.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(typescript@5.8.3)(use-sync-external-store@1.5.0(react@19.0.0))(zod@3.25.67)
       '@streamplace/config-react-native-webrtc':
-        specifier: ^0.6.37
-        version: 0.6.37(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))
+        specifier: ^0.7.0
+        version: 0.7.0(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.1
@@ -113,9 +116,6 @@ importers:
       tailwindcss-animate:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.3.5)
-      wagaga-components-beta-wagaga:
-        specifier: 0.6.37-beta3
-        version: 0.6.37-beta3(@babel/core@7.27.4)(@types/react@19.0.14)(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-native-svg@15.11.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(typescript@5.8.3)(use-sync-external-store@1.5.0(react@19.0.0))(zod@3.25.67)
       zustand:
         specifier: ^5.0.5
         version: 5.0.5(@types/react@19.0.14)(react@19.0.0)(use-sync-external-store@1.5.0(react@19.0.0))
@@ -1542,11 +1542,16 @@ packages:
   '@sinonjs/fake-timers@10.3.0':
     resolution: {integrity: sha512-V4BG07kuYSUkTCSBHG8G8TNhM+F19jXFWnQtzj+we8DrkpSBCee9Z3Ms8yiGer/dlmhe35/Xdgyo3/0rQKg7YA==}
 
-  '@streamplace/atproto-oauth-client-react-native@0.6.37':
-    resolution: {integrity: sha512-uTSJICMP5v3Y0IY4qlOm7nr3PJgc4q1qTr9ZoRaXpdnKbyebsMEC8mRytDiYQcpOs0J9mK4/G8+kFBD6it9BTg==}
+  '@streamplace/atproto-oauth-client-react-native@0.7.0':
+    resolution: {integrity: sha512-x2RqJQ4U9d8jq6YYq7Yei9EJoxxj+44qHKCMJsSU2sQ/ANUBfzrshTRvlbYp9SRZOMaV/TCd5j5q0N5LBcAcjg==}
 
-  '@streamplace/config-react-native-webrtc@0.6.37':
-    resolution: {integrity: sha512-1JREwkVfFDkRjUiAVIJ7FnPLHi37Y9SZfWcJTqrKMc46hxKJnU3O1tuEX9PM9pcqvtlrN/5rgp31YMYEolR6mg==}
+  '@streamplace/components@0.7.0':
+    resolution: {integrity: sha512-YBydjVxDzUoHrm8eZvZM2M/Kj73cUuzNi1b/LqyumhVg7rYBmR9ogzIBQzjpU2IC+paYOAJDiIwXJoRIIbvmXA==}
+    peerDependencies:
+      react: '*'
+
+  '@streamplace/config-react-native-webrtc@0.7.0':
+    resolution: {integrity: sha512-//BMsAnssTvfi8RTfXokjOlDJSa0AoRu2GTArq4WOveXsEjQX/ikUMo+4SymM3Y6gOJDB8giw32RCdCggaV3lw==}
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -3485,6 +3490,12 @@ packages:
       react: '*'
       react-native: '*'
 
+  react-native-edge-to-edge@1.6.2:
+    resolution: {integrity: sha512-koEF6WRAfdGNelXlP7NtHrQhFGtplwciYNWLHOCTCk0Thc7dlxtqxHRYSA5vPJgWOEkVBFqxcoOqKwAtqOmLNw==}
+    peerDependencies:
+      react: '*'
+      react-native: '*'
+
   react-native-gesture-handler@2.26.0:
     resolution: {integrity: sha512-pfE1j9Vzu0qpWj/Aq1IK+cYnougN69mCKvWuq1rdNjH2zs1WIszF0Mum9/oGQTemgjyc/JgiqOOTgwcleAMAGg==}
     peerDependencies:
@@ -3537,18 +3548,13 @@ packages:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
 
-  react-native-webrtc@124.0.4:
-    resolution: {integrity: sha512-ZbhSz1f+kc1v5VE0B84+v6ujIWTHa2fIuocrYzGUIFab7E5izmct7PNHb9dzzs0xhBGqh4c2rUa49jbL+P/e2w==}
-    peerDependencies:
-      react-native: '>=0.60.0'
-
   react-native-webrtc@124.0.5:
     resolution: {integrity: sha512-LIQJKst+t53bJOcQef9VXuz3pVheSBUA4olQGkxosbF4pHW1gsWoXYmf6wmI2zrqOA+aZsjjB6aT9AKLyr6a0Q==}
     peerDependencies:
       react-native: '>=0.60.0'
 
-  react-native-webrtc@https://codeload.github.com/EdgarJMesquita/react-native-webrtc/tar.gz/8bae93dc32d6c80b61f12a04974886a6812fbca6:
-    resolution: {tarball: https://codeload.github.com/EdgarJMesquita/react-native-webrtc/tar.gz/8bae93dc32d6c80b61f12a04974886a6812fbca6}
+  react-native-webrtc@https://codeload.github.com/streamplace/react-native-webrtc/tar.gz/6b8472a771ac47f89217d327058a8a4124a6ae56:
+    resolution: {tarball: https://codeload.github.com/streamplace/react-native-webrtc/tar.gz/6b8472a771ac47f89217d327058a8a4124a6ae56}
     version: 124.0.5
     peerDependencies:
       react-native: '>=0.60.0'
@@ -3840,8 +3846,8 @@ packages:
     resolution: {integrity: sha512-uyQK/mx5QjHun80FLJTfaWE7JtwfRMKBLkMne6udYOmvH0CawotVa7TfgYHzAnpphn4+TweIx1QKMnRIbipmUg==}
     engines: {node: '>= 0.10.0'}
 
-  streamplace@0.6.37:
-    resolution: {integrity: sha512-996pMXPhMjaRGBmrJktT9g+Mzx+Jbkdnol11VV4kSxjQqYLmoFm766hs0v64BGEiqSR4T5KPYrwUoW534YkyJg==}
+  streamplace@0.7.0:
+    resolution: {integrity: sha512-+F+JKzWQCV9AsYVqneI6IooGPhoMD3cv8Ewd+XNwiVUYPuXg0lnvRbhEUCYnk+teE6deesxj966S3wU0kmkPwQ==}
 
   streamplace@file:streamplace-0.6.37.tgz:
     resolution: {integrity: sha512-SX2gXvJuN5I0HT4THlmGvNP02TFDwnW2dKFKCqAO+nmVPD4AmuWRuWxamE+KR4w0T5TXUmLYrJGRpbk3V5iC3w==, tarball: file:streamplace-0.6.37.tgz}
@@ -4104,11 +4110,6 @@ packages:
 
   vlq@1.0.1:
     resolution: {integrity: sha512-gQpnTgkubC6hQgdIcRdYGDSDc+SaujOdyesZQMv6JlfQee/9Mp0Qhnys6WxDWvQnL5WZdT7o2Ul187aSt0Rq+w==}
-
-  wagaga-components-beta-wagaga@0.6.37-beta3:
-    resolution: {integrity: sha512-FcwvjkXUkcB4sSt5ep9cVtGU/0lp98gdzoA1sRe3LuhPGH3mtn1vKF5t9OX2E1D1y2nh5NF5qAI23YR+l4sHwg==}
-    peerDependencies:
-      react: '*'
 
   walker@1.0.8:
     resolution: {integrity: sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==}
@@ -6126,7 +6127,7 @@ snapshots:
     dependencies:
       '@sinonjs/commons': 3.0.1
 
-  '@streamplace/atproto-oauth-client-react-native@0.6.37(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)':
+  '@streamplace/atproto-oauth-client-react-native@0.7.0(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@atproto-labs/did-resolver': 0.1.12
       '@atproto-labs/handle-resolver-node': 0.1.15
@@ -6149,10 +6150,51 @@ snapshots:
       - react
       - react-native
 
-  '@streamplace/config-react-native-webrtc@0.6.37(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))':
+  '@streamplace/components@0.7.0(@babel/core@7.27.4)(@types/react@19.0.14)(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-native-svg@15.11.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(typescript@5.8.3)(use-sync-external-store@1.5.0(react@19.0.0))(zod@3.25.67)':
+    dependencies:
+      '@atproto/api': 0.15.17
+      '@atproto/crypto': 0.4.4
+      '@gorhom/bottom-sheet': 5.1.6(@types/react@19.0.14)(react-native-gesture-handler@2.26.0(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-reanimated@3.18.0(@babel/core@7.27.4)(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
+      '@react-navigation/native': 6.1.18(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
+      '@rn-primitives/dropdown-menu': 1.2.0(@rn-primitives/portal@1.3.0(@types/react@19.0.14)(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)(use-sync-external-store@1.5.0(react@19.0.0)))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
+      '@rn-primitives/portal': 1.3.0(@types/react@19.0.14)(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)(use-sync-external-store@1.5.0(react@19.0.0))
+      class-variance-authority: 0.6.1
+      expo-video: 2.2.2(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
+      hls.js: 1.6.5
+      lucide-react-native: 0.514.0(react-native-svg@15.11.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
+      react: 19.0.0
+      react-native: 0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)
+      react-native-edge-to-edge: 1.6.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
+      react-native-gesture-handler: 2.26.0(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
+      react-native-reanimated: 3.18.0(@babel/core@7.27.4)(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
+      react-native-safe-area-context: 5.4.1(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
+      react-native-webrtc: https://codeload.github.com/streamplace/react-native-webrtc/tar.gz/6b8472a771ac47f89217d327058a8a4124a6ae56(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))
+      react-use-websocket: 4.13.0
+      streamplace: 0.7.0
+      viem: 2.31.4(typescript@5.8.3)(zod@3.25.67)
+      zustand: 5.0.5(@types/react@19.0.14)(react@19.0.0)(use-sync-external-store@1.5.0(react@19.0.0))
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@react-native-community/cli'
+      - '@types/react'
+      - '@types/react-dom'
+      - '@types/react-native'
+      - bufferutil
+      - expo
+      - immer
+      - react-dom
+      - react-native-svg
+      - react-native-web
+      - supports-color
+      - typescript
+      - use-sync-external-store
+      - utf-8-validate
+      - zod
+
+  '@streamplace/config-react-native-webrtc@0.7.0(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))':
     dependencies:
       '@config-plugins/react-native-webrtc': 10.0.0(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))
-      react-native-webrtc: 124.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))
+      react-native-webrtc: https://codeload.github.com/streamplace/react-native-webrtc/tar.gz/6b8472a771ac47f89217d327058a8a4124a6ae56(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))
       rtcaudiodevice: https://codeload.github.com/streamplace/RTCAudioDevice/tar.gz/7b4659fe845545d366623cbc813936987144b76f
     transitivePeerDependencies:
       - expo
@@ -8187,6 +8229,11 @@ snapshots:
       react: 19.0.0
       react-native: 0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)
 
+  react-native-edge-to-edge@1.6.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-native: 0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)
+
   react-native-gesture-handler@2.26.0(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0):
     dependencies:
       '@egjs/hammerjs': 2.0.17
@@ -8272,15 +8319,6 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  react-native-webrtc@124.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)):
-    dependencies:
-      base64-js: 1.5.1
-      debug: 4.3.4
-      event-target-shim: 6.0.2
-      react-native: 0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)
-    transitivePeerDependencies:
-      - supports-color
-
   react-native-webrtc@124.0.5(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)):
     dependencies:
       base64-js: 1.5.1
@@ -8290,7 +8328,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  react-native-webrtc@https://codeload.github.com/EdgarJMesquita/react-native-webrtc/tar.gz/8bae93dc32d6c80b61f12a04974886a6812fbca6(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)):
+  react-native-webrtc@https://codeload.github.com/streamplace/react-native-webrtc/tar.gz/6b8472a771ac47f89217d327058a8a4124a6ae56(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)):
     dependencies:
       base64-js: 1.5.1
       debug: 4.3.4
@@ -8614,7 +8652,7 @@ snapshots:
 
   stream-buffers@2.2.0: {}
 
-  streamplace@0.6.37:
+  streamplace@0.7.0:
     dependencies:
       '@atproto/api': 0.15.17
       '@atproto/lexicon': 0.4.11
@@ -8883,46 +8921,6 @@ snapshots:
       - zod
 
   vlq@1.0.1: {}
-
-  wagaga-components-beta-wagaga@0.6.37-beta3(@babel/core@7.27.4)(@types/react@19.0.14)(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-native-svg@15.11.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(typescript@5.8.3)(use-sync-external-store@1.5.0(react@19.0.0))(zod@3.25.67):
-    dependencies:
-      '@atproto/api': 0.15.17
-      '@atproto/crypto': 0.4.4
-      '@gorhom/bottom-sheet': 5.1.6(@types/react@19.0.14)(react-native-gesture-handler@2.26.0(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-reanimated@3.18.0(@babel/core@7.27.4)(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
-      '@react-navigation/native': 6.1.18(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
-      '@rn-primitives/dropdown-menu': 1.2.0(@rn-primitives/portal@1.3.0(@types/react@19.0.14)(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)(use-sync-external-store@1.5.0(react@19.0.0)))(@types/react@19.0.14)(react-dom@19.0.0(react@19.0.0))(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
-      '@rn-primitives/portal': 1.3.0(@types/react@19.0.14)(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)(use-sync-external-store@1.5.0(react@19.0.0))
-      class-variance-authority: 0.6.1
-      expo-video: 2.2.2(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
-      hls.js: 1.6.5
-      lucide-react-native: 0.514.0(react-native-svg@15.11.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
-      react: 19.0.0
-      react-native: 0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)
-      react-native-gesture-handler: 2.26.0(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
-      react-native-reanimated: 3.18.0(@babel/core@7.27.4)(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
-      react-native-safe-area-context: 5.4.1(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
-      react-native-webrtc: https://codeload.github.com/EdgarJMesquita/react-native-webrtc/tar.gz/8bae93dc32d6c80b61f12a04974886a6812fbca6(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))
-      react-use-websocket: 4.13.0
-      streamplace: 0.6.37
-      viem: 2.31.4(typescript@5.8.3)(zod@3.25.67)
-      zustand: 5.0.5(@types/react@19.0.14)(react@19.0.0)(use-sync-external-store@1.5.0(react@19.0.0))
-    transitivePeerDependencies:
-      - '@babel/core'
-      - '@react-native-community/cli'
-      - '@types/react'
-      - '@types/react-dom'
-      - '@types/react-native'
-      - bufferutil
-      - expo
-      - immer
-      - react-dom
-      - react-native-svg
-      - react-native-web
-      - supports-color
-      - typescript
-      - use-sync-external-store
-      - utf-8-validate
-      - zod
 
   walker@1.0.8:
     dependencies:

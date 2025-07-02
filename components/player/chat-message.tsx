@@ -7,8 +7,8 @@ import { memo, useCallback } from "react";
 import { Linking, View } from "react-native";
 import { ChatMessageViewHydrated } from "streamplace";
 import { RichtextSegment, segmentize } from "../../lib/facet";
-import { borders } from "wagaga-components-beta-wagaga";
-import { atoms, layout } from "wagaga-components-beta-wagaga";
+import { borders } from "@streamplace/components";
+import { atoms, layout } from "@streamplace/components";
 
 const { flex, gap, ml, mr, opacity, pl, w } = atoms;
 
