@@ -15,16 +15,13 @@ import { Chat } from "./chat";
 export function MyPlayerUI() {
   const {
     ingest,
-    title,
     toggleGoLive,
     showCountdown,
     setShowCountdown,
     recordSubmitted,
     setRecordSubmitted,
   } = useLivestreamInfo();
-  const { connectionQuality, segmentDeltas, mean, range } = useSegmentTiming();
   const { width, height } = usePlayerDimensions();
-  const { slideKeyboard } = useKeyboardSlide();
 
   const isSelfAndNotLive = ingest === "new";
   const isLive = ingest !== null && ingest !== "new";
@@ -32,15 +29,7 @@ export function MyPlayerUI() {
   return (
     <View className="flex-1 justify-end p-5">
       {/* Metrics Panel */}
-      {isLive && (
-        <PlayerUI.MetricsPanel
-          connectionQuality={connectionQuality}
-          segmentDeltas={segmentDeltas}
-          mean={mean || 0}
-          range={range || 0}
-          showMetrics={isLive}
-        />
-      )}
+      {isLive && <PlayerUI.MetricsPanel showMetrics={isLive} />}
 
       {/* Input Panel for Streamer */}
       {isSelfAndNotLive ? (
@@ -56,7 +45,7 @@ export function MyPlayerUI() {
           </Pressable>
         </View>
       ) : (
-        <Resizable isPlayerRatioGreater={false} slideKeyboard={slideKeyboard}>
+        <Resizable isPlayerRatioGreater={false}>
           <Chat />
         </Resizable>
       )}
