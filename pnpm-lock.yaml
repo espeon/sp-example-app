@@ -36,8 +36,8 @@ importers:
         specifier: ^0.7.0
         version: 0.7.0(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0)
       '@streamplace/components':
-        specifier: file:streamplace-components-0.7.2.tgz
-        version: file:streamplace-components-0.7.2.tgz(@babel/core@7.27.4)(@types/react@19.0.14)(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-native-svg@15.11.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(typescript@5.8.3)(use-sync-external-store@1.5.0(react@19.0.0))(zod@3.25.67)
+        specifier: 0.7.3
+        version: 0.7.3(@babel/core@7.27.4)(@types/react@19.0.14)(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-native-svg@15.11.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(typescript@5.8.3)(use-sync-external-store@1.5.0(react@19.0.0))(zod@3.25.67)
       '@streamplace/config-react-native-webrtc':
         specifier: ^0.7.0
         version: 0.7.0(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))
@@ -105,8 +105,8 @@ importers:
         specifier: ^124.0.5
         version: 124.0.5(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))
       streamplace:
-        specifier: file:streamplace-0.7.2.tgz
-        version: file:streamplace-0.7.2.tgz
+        specifier: 0.7.2
+        version: 0.7.2
       tailwind-merge:
         specifier: ^2.2.1
         version: 2.6.0
@@ -1544,10 +1544,10 @@ packages:
 
   '@streamplace/atproto-oauth-client-react-native@0.7.0':
     resolution: {integrity: sha512-x2RqJQ4U9d8jq6YYq7Yei9EJoxxj+44qHKCMJsSU2sQ/ANUBfzrshTRvlbYp9SRZOMaV/TCd5j5q0N5LBcAcjg==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
-  '@streamplace/components@file:streamplace-components-0.7.2.tgz':
-    resolution: {integrity: sha512-OXTSehfc7+RclzN+TIDZluk5Kak6qnBkUO+iufgL30G33c/y3AAvjk23vaIvVKZi7BZrGb+gij8UHt3HF20ULg==, tarball: file:streamplace-components-0.7.2.tgz}
-    version: 0.7.2
+  '@streamplace/components@0.7.3':
+    resolution: {integrity: sha512-5jiDsZhXe04HhIdkHdRJ35XUm+g2cZejSCZtUESdu7hZPimtXOeqw33nUj395p1Vc0T9uUo5nyGPzf5vhqGs7A==}
     peerDependencies:
       react: '*'
 
@@ -3850,10 +3850,6 @@ packages:
   streamplace@0.7.2:
     resolution: {integrity: sha512-hDLtlmnM84mI0gC6Cfy1t99ed6YbROtBOiLkZ5uVsufUDTuOI5xbBIv9xI2C91F9CwViAntHSia074oZpO7V+g==}
 
-  streamplace@file:streamplace-0.7.2.tgz:
-    resolution: {integrity: sha512-v1OcUFGSlI5vhMOfLacckKQhZ3JnzTp3m36I+eSmrUMcxRy8c8eH5+bT8sBkExURNGSzPGMc9mL8lHtZsDS/GQ==, tarball: file:streamplace-0.7.2.tgz}
-    version: 0.7.2
-
   strict-uri-encode@2.0.0:
     resolution: {integrity: sha512-QwiXZgpRcKkhTj2Scnn++4PKtWsH0kpzZ62L2R6c/LUVYv7hVnZqcg2+sMuT6R7Jusu1vviK/MFsu6kNJfWlEQ==}
     engines: {node: '>=4'}
@@ -6151,7 +6147,7 @@ snapshots:
       - react
       - react-native
 
-  '@streamplace/components@file:streamplace-components-0.7.2.tgz(@babel/core@7.27.4)(@types/react@19.0.14)(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-native-svg@15.11.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(typescript@5.8.3)(use-sync-external-store@1.5.0(react@19.0.0))(zod@3.25.67)':
+  '@streamplace/components@0.7.3(@babel/core@7.27.4)(@types/react@19.0.14)(expo@53.0.12(@babel/core@7.27.4)(@expo/metro-runtime@5.0.4(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0)))(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-native-svg@15.11.2(react-native@0.79.3(@babel/core@7.27.4)(@types/react@19.0.14)(react@19.0.0))(react@19.0.0))(react-native-web@0.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react@19.0.0)(typescript@5.8.3)(use-sync-external-store@1.5.0(react@19.0.0))(zod@3.25.67)':
     dependencies:
       '@atproto/api': 0.15.17
       '@atproto/crypto': 0.4.4
@@ -8654,14 +8650,6 @@ snapshots:
   stream-buffers@2.2.0: {}
 
   streamplace@0.7.2:
-    dependencies:
-      '@atproto/api': 0.15.17
-      '@atproto/lexicon': 0.4.11
-      '@atproto/xrpc': 0.7.0
-      multiformats: 9.9.0
-      tslib: 2.8.1
-
-  streamplace@file:streamplace-0.7.2.tgz:
     dependencies:
       '@atproto/api': 0.15.17
       '@atproto/lexicon': 0.4.11

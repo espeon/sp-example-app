@@ -1,16 +1,32 @@
-# Starter base
+# sp-example-app
 
-A starting point to help you set up your project quickly and use the common components provided by `react-native-reusables`. The idea is to make it easier for you to get started.
+A sample React Native app demonstrating livestreaming and chat features using Streamplace components.
 
 ## Features
 
-- NativeWind v4
-- Dark and light mode
-  - Android Navigation Bar matches mode
-  - Persistent mode
-- Common components
-  - ThemeToggle, Avatar, Button, Card, Progress, Text, Tooltip
+- **Livestream Directory:** Browse live streams and view stream details.
+- **Player UI:** Watch streams with custom controls and metrics.
+- **Chat:** Real-time chat for each livestream, including rich text and mentions.
+- **Dark/Light Mode:** Toggle between dark and light themes, with Android navigation bar adapting to the mode.
+- **Reusable UI Components:** Includes Avatar, Button, Card, Progress, Text, and Tooltip components.
+- **Navigation:** Built with Expo Router for seamless navigation.
+- **State Management:** Uses Zustand for global state.
 
-<img src="https://github.com/mrzachnugent/react-native-reusables/assets/63797719/42c94108-38a7-498b-9c70-18640420f1bc"
-     alt="starter-base-template"
-     style="width:270px;" />
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   pnpm install
+   ```
+2. Start the development server:
+   ```bash
+    pnpm start
+    ```
+2a. Or run the app on a specific platform:
+   ```bash
+   pnpm run android
+   ```
+   ```bash
+   pnpm run ios
+   ```
+
